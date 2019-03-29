@@ -40,10 +40,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 8999041304987987147}
   m_Enabled: 1
   m_EditorHideFlags: 0
+  m_GeneratorAsset: {fileID: 0}
   m_Script: {fileID: 11500000, guid: c9f83db71b9a6764abf964ab7679f035, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: Longbow
+  name: Gun
   packageType: 2
   itemPrefab: {fileID: 4565947562820071185, guid: dab636c7bb3447641987335ca77ca332,
     type: 3}

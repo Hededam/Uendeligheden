@@ -44,6 +44,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 100256}
   m_Enabled: 1
   m_EditorHideFlags: 0
+  m_GeneratorAsset: {fileID: 0}
   m_Script: {fileID: 11500000, guid: f86ab2e727cd09f43849955c5b35f490, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
@@ -93,6 +94,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 100256}
   m_Enabled: 1
   m_EditorHideFlags: 0
+  m_GeneratorAsset: {fileID: 0}
   m_Script: {fileID: 11500000, guid: dc3be917a80086a48b97933694257f09, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
@@ -264,6 +266,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 122890}
   m_Enabled: 1
   m_EditorHideFlags: 0
+  m_GeneratorAsset: {fileID: 0}
   m_Script: {fileID: 11500000, guid: 32c1c9a5bbab2e54280027c0ecaf42db, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
@@ -452,6 +455,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 140096}
   m_Enabled: 1
   m_EditorHideFlags: 0
+  m_GeneratorAsset: {fileID: 0}
   m_Script: {fileID: 11500000, guid: 32c1c9a5bbab2e54280027c0ecaf42db, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
@@ -638,6 +642,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 150948}
   m_Enabled: 1
   m_EditorHideFlags: 0
+  m_GeneratorAsset: {fileID: 0}
   m_Script: {fileID: 11500000, guid: 32c1c9a5bbab2e54280027c0ecaf42db, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
@@ -878,7 +883,6 @@ GameObject:
   m_Component:
   - component: {fileID: 485512}
   - component: {fileID: 6710084041992761442}
-  - component: {fileID: 11487904}
   - component: {fileID: 6590140}
   - component: {fileID: 5410824}
   m_Layer: 0
@@ -914,27 +918,8 @@ MonoBehaviour:
   m_GameObject: {fileID: 173732}
   m_Enabled: 1
   m_EditorHideFlags: 0
+  m_GeneratorAsset: {fileID: 0}
   m_Script: {fileID: 11500000, guid: 600d967772d95494ca836cdd6b623097, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  glintParticle: {fileID: 19818360}
-  arrowHeadRB: {fileID: 5425834}
-  shaftRB: {fileID: 5410824}
-  targetPhysMaterial: {fileID: 13400000, guid: c509d5711dc2cc346be2763cd92383ca, type: 2}
-  fireReleaseSound: {fileID: 11479486}
-  airReleaseSound: {fileID: 11460240}
-  hitTargetSound: {fileID: 11455580}
-  hitGroundSound: {fileID: 11470766}
---- !u!114 &11487904
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 173732}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d520699ed41daaf48b924d994ac87378, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   glintParticle: {fileID: 19818360}
@@ -1048,6 +1033,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 195658}
   m_Enabled: 1
   m_EditorHideFlags: 0
+  m_GeneratorAsset: {fileID: 0}
   m_Script: {fileID: 11500000, guid: 1a125d9df683e2a49b12babced273360, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
@@ -2582,6 +2568,7 @@ ParticleSystem:
         m_NumColorKeys: 2
         m_NumAlphaKeys: 2
   UVModule:
+    serializedVersion: 2
     enabled: 0
     mode: 0
     timeMode: 0
@@ -2708,7 +2695,7 @@ ParticleSystem:
     rowIndex: 0
     cycles: 1
     uvChannelMask: -1
-    randomRow: 1
+    rowMode: 1
     sprites:
     - sprite: {fileID: 0}
     flipU: 0
@@ -5816,7 +5803,7 @@ ParticleSystem:
 --- !u!199 &19984524
 ParticleSystemRenderer:
   serializedVersion: 6
-  m_ObjectHideFlags: 2
+  m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -5962,6 +5949,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1000010701867876}
   m_Enabled: 1
   m_EditorHideFlags: 0
+  m_GeneratorAsset: {fileID: 0}
   m_Script: {fileID: 11500000, guid: f195fe0cc42f49241a3c7521a19fa350, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
